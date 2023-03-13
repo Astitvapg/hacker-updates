@@ -468,7 +468,7 @@ export async function getStaticProps() {
   return {
     props: {
       announcement: {
-        title: 'Get 50% off Saas UI Pro while in beta.',
+        title: 'This Application is in Devlopment Please Hold Tight For Updates.',
         href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order',
       },
     },
