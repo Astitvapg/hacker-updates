@@ -125,6 +125,7 @@ const HeroSection: React.FC = () => {
                         },
                       }}
                     />
+                    />
                   }
                 
                   
