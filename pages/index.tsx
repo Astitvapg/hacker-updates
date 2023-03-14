@@ -65,21 +65,13 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Saas UI Landingspage"
-        description="Free SaaS landingspage starter kit"
+        title="Website By Astitva Singh"
+        description="How Hackers Penetrate Systems"
       />
       <Box>
         <HeroSection />
 
         <HighlightsSection />
-
-        <FeaturesSection />
-
-        <TestimonialsSection />
-
-        <PricingSection />
-
-        <FaqSection />
       </Box>
     </Box>
   )
@@ -97,8 +89,8 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Know How Hackers
+                <Br /> Strike into Your System
               </FallInPlace>
             }
             description={
@@ -115,12 +107,12 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
+                <ButtonLink colorScheme="primary" size="lg" href="/home">
+                    Read Know
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.saas-ui.dev"
+                  href="https://vercel.app"
                   variant="outline"
                   rightIcon={
                     <Icon
@@ -135,20 +127,7 @@ const HeroSection: React.FC = () => {
                     />
                   }
                 >
-                  View demo
-                </ButtonLink>
-              </ButtonGroup>
-            </FallInPlace>
-          </Hero>
-          <Box
-            height="600px"
-            position="absolute"
-            display={{ base: 'none', lg: 'block' }}
-            left={{ lg: '60%', xl: '55%' }}
-            width="80vw"
-            maxW="1100px"
-            margin="0 auto"
-          >
+                  
             <FallInPlace delay={1}>
               <Box overflow="hidden" height="100%">
                 <Image
@@ -469,7 +448,7 @@ export async function getStaticProps() {
     props: {
       announcement: {
         title: 'This Application is in Devlopment Please Hold Tight For Updates.',
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order',
+        href: 'http://about.astitvasingh.info',
       },
     },
   }
